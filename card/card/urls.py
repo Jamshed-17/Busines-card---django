@@ -20,4 +20,6 @@ from first import views
 
 urlpatterns = [
     path('', views.card, name = 'Визитка 1'),
+    path("work", views.work, kwargs={"name":"БРЦБ", "time":"2 месяца"})
 ]
+
